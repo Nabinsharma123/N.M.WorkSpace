@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.main-container {
+    margin: 0 5.5rem;
+}
+
+.nav-container {
+    z-index: 20;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem 5.5rem;
+    border-bottom: 2px solid #000;
+
+}
+
+.nav-container h1 {
+    font-size: 2.0rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-leftSide {
+    display: flex;
+}
+
+.nav-leftSide .logo {
+    margin-right: 50px;
+    color: rgb(109, 63, 194);
+}
+
+.nav-leftSide .logo span {
+    color: green;
+}
+
+.nav-leftSide a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-rightSide a {
+    text-decoration: none;
+    color: black;
+}
+
+.TitleContainer {
+    display: flex;
+    border-bottom: 2px dashed black;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.Title button {
+    font-size: 1.3rem;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.TitlePic img {
+    height: 500px;
+}
+
+.looking-container {
+    position: relative;
+}
+
+.Looking {
+    position: absolute;
+    top: 400px;
+}
+
+
+
+.Looking-img img {
+    width: 100%;
+
+}
+
+.Looking-options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.Looking-options button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(109, 63, 194);
+
+}
+
+.About-container {
+    width: 100vw;
+    height: calc(100vh - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.About {
+    width: 900px;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.About-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.About-left h1 {
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+}
+
+.About-left h2 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+
+}
+
+.About-right img {
+    width: 500px;
+}
+
+.login {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: 2px solid #000;
+    padding: 50px;
+    display: flex;
+}
+
+.login-left h1,
+input {
+    margin-bottom: 30px;
+}
+
+.login-left {
+    width: 300px;
+}
+
+.login-left input {
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    height: 50px;
+    background-color: #333;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.login-left button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #811eaf;
+    color: #eee;
+
+    cursor: pointer;
+}
+
+
+
+
+.login-right img {
+    transform: scale(1.3);
+    width: 400px;
+
+}
+
+.login-right div {
+    border-left: 2px solid black;
+    margin-left: 20px;
+}
