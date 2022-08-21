@@ -227,9 +227,26 @@ input {
 
 }
 
+.login-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .login-right div {
     border-left: 2px solid black;
     margin-left: 20px;
+
+}
+
+.nav-rightSide .nav-button a:last-child button {
+    border-color: rgb(109, 63, 194);
+    margin-left: 10px;
+}
+
+.nav-rightSide .nav-button a:last-child button:hover {
+    border-color: #000;
+
 }
 
 .nav-button button {
@@ -245,10 +262,19 @@ input {
 }
 
 .nav-button button:hover {
-    border: 2px solid #000;
+
     background-color: rgb(109, 63, 194);
     color: #fff;
     transition: 0.3s;
+    border-color: #000;
 
 
+}
+
+.sighup-left div {
+    display: flex;
+}
+
+.sighup-left div input:first-child {
+    margin-right: 10px;
 }
