@@ -14,7 +14,7 @@
     background-color: white;
     position: sticky;
     top: 0;
-    padding: 1.5rem 5.5rem;
+    padding: 0.5rem 5.5rem;
     border-bottom: 2px solid #000;
 
 }
@@ -30,6 +30,8 @@
 
 .nav-leftSide {
     display: flex;
+    align-items: center;
+
 }
 
 .nav-leftSide .logo {
@@ -65,12 +67,23 @@
 
 .Title button {
     font-size: 1.3rem;
+    font-weight: 600;
     width: 200px;
     background-color: #000;
     color: #fff;
     border-radius: 20px;
     margin-top: 50px;
     padding: 10px;
+}
+
+.Title button:hover {
+    color: #000;
+
+    background-color: #fff;
+    transform: scale(1.1);
+    transition: 0.3s;
+
+
 }
 
 .TitlePic img {
@@ -110,9 +123,17 @@
 
 }
 
+.Looking-options button:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #811eaf;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .About-container {
     width: 100vw;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 75.59px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,4 +230,25 @@ input {
 .login-right div {
     border-left: 2px solid black;
     margin-left: 20px;
+}
+
+.nav-button button {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-size: 1.9rem;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-button button:hover {
+    border: 2px solid #000;
+    background-color: rgb(109, 63, 194);
+    color: #fff;
+    transition: 0.3s;
+
+
 }
